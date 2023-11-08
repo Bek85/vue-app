@@ -1,15 +1,22 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <LogoMain />
+  <TriggerAlert />
+  <AddToCart />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import LogoMain from "@/components/LogoMain";
+import TriggerAlert from '@/components/TriggerAlert'
+import AddToCart from '@/components/AddToCart'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld, LogoMain, TriggerAlert, AddToCart
   }
 }
 </script>
