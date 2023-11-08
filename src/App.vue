@@ -4,19 +4,21 @@
   <LogoMain />
   <TriggerAlert />
   <AddToCart />
+  <LifecycleHooks />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import LogoMain from "@/components/LogoMain";
 import TriggerAlert from '@/components/TriggerAlert'
-import AddToCart from '@/components/AddToCart'
+import AddToCart from '@/components/AddToCart';
+import LifecycleHooks from "@/components/LifecycleHooks";
 
 
 export default {
   name: 'App',
   components: {
-    HelloWorld, LogoMain, TriggerAlert, AddToCart
+    HelloWorld, LogoMain, TriggerAlert, AddToCart, LifecycleHooks
   }
 }
 </script>
