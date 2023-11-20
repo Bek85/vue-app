@@ -34,28 +34,28 @@ export default {
     }
   },
   beforeUpdate() {
-    alert('beforeUpdate: We know an update is about to happen, and have the data')
+    console.log('beforeUpdate: We know an update is about to happen, and have the data')
   },
   updated() {
-    alert('updated: virtual DOM will update after you click OK')
+    console.log('updated: virtual DOM will update after you click OK')
   },
   beforeCreate() {
-    alert('beforeCreate: data is static, thats it')
+    console.log('beforeCreate: data is static, thats it')
   },
   created() {
-    alert('created: data and events ready, but no DOM')
+    console.log('created: data and events ready, but no DOM')
   },
   beforeMount() {
-    alert('beforeMount: $el not ready')
+    console.log('beforeMount: $el not ready')
   },
   mounted() {
-    alert('mounted: DOM ready to use')
+    console.log('mounted: DOM ready to use')
   },
   beforeUnmount() {
-    alert('beforeUnmount: about to blow up this component')
+    console.log('beforeUnmount: about to blow up this component')
   },
   unmounted() {
-    alert('unmounted: this component has been destroyed')
+    console.log('unmounted: this component has been destroyed')
   }
 }
 </script>
